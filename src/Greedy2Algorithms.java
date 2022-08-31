@@ -6,8 +6,6 @@ public class Greedy2Algorithms {
         int[] stations = {0, 200, 375, 550, 750, 950};
         System.out.println(minStops(stations, 400));
     }
-
-
     public static int minStops(int[] stations, int capacity) {
         int result = 0; // оптимальное количество остановок
         int currentStop = 0; // местоположение автомобиля
